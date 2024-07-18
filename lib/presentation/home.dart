@@ -85,6 +85,20 @@ class _HomeScreenState extends State<HomeScreen> {
             bottom: -30,
             child: DraggableButton(),
           ),
+          const Positioned(
+            right: 60,
+            bottom: 20,
+            child: CircleAvatar(
+              radius: 50,
+              backgroundColor: Colors.grey,
+              child: Center(
+                child: Text(
+                  'View all',
+                  style: TextStyle(color: Colors.white, fontSize: 18),
+                ),
+              ),
+            ),
+          )
         ],
       ),
     );
